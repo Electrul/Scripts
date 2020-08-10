@@ -1,0 +1,7 @@
+Paste the following code in the console. You will have to f12 to access the console. 
+
+//Navigate to top level lesson and execute.
+
+lmsManager.setValue("cmi.completion_status", "completed");
+lmsManager.setValue("cmi.success_status", "passed");
+lmsManager.setValue("adl.nav.request", "exitAll");
